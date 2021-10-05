@@ -22,9 +22,6 @@ int main() {
         number_as_integer = std::stoi(number);
         if (number_as_integer < 0) {
             std::cout << number << " is a negative integer" << std::endl;
-        } else if (number_as_integer != numberAsfloat) {
-            std::cout << number << " is a decimal number, try again."
-                        << std::endl;
         } else {
             for (int counter = 0; counter <= number_as_integer; counter++) {
                 int total = counter * 2;
